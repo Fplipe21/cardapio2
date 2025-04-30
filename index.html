@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('Fundo-Xadrez.jpg');
+      background-size: cover;
+      background-repeat: repeat;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .cardapio {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.95); /* Leve transparência para ver o fundo */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 10px auto;
+      max-width: 150px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #462a07;
+    }
+
+    .categoria {
+      margin-top: 20px;
+    }
+
+    .categoria h2 {
+      border-bottom: 1px solid #000000;
+      color: #f8890a;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+    }
+
+    .item-nome {
+      font-weight: bold;
+    }
+
+    .item-preco {
+      color: #000000;
+    }
+
+    .rodape {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .botao-whatsapp {
+      background-color: #25D366;
+    }
+
+    .botao-avaliar {
+      background-color: #ff9900;
+    }
+  </style>
+</head>
+<body>
+  <div class="cardapio">
+    <img src="volurde.png" alt="Logo Marmitaria Vó Lourdes" class="logo">
+    <h1>Cardápio da Vó Lourdes</h1>
+
+    <div class="categoria">
+      <h2>Tamanhos</h2>
+      <div class="item"><span class="item-nome">Pequena</span><span class="item-preco">R$ 20,00</span></div>
+      <div class="item"><span class="item-nome">Média</span><span class="item-preco">R$ 25,00</span></div>
+      <div class="item"><span class="item-nome">Grande</span><span class="item-preco">R$ 28,00</span></div>
+    </div>
+
+    <div class="categoria">
+      <h2>Opções semanais</h2>
+      <div class="item"><span class="item-nome">Bisteca suína</span><span class="item-preco">Segundas e Terças</span></div>
+      <div class="item"><span class="item-nome">Filé de Frango</span><span class="item-preco">Quartas e Quintas</span></div>
+      <div class="item"><span class="item-nome">Bife acebolado</span><span class="item-preco">Sextas e Sábados</span></div>
+      <div class="item"><span class="item-nome">Feijoada da Vó Lourdes</span><span class="item-preco">Sábados</span></div>
+    </div>
+
+    <div class="categoria">
+      <h2>Bebidas</h2>
+      <div class="item"><span class="item-nome">Suco Natural</span><span class="item-preco">R$ 8,00</span></div>
+      <div class="item"><span class="item-nome">Refrigerante</span><span class="item-preco">R$ 6,50</span></div>
+    </div>
+
+    <div class="categoria">
+      <h2>Sobremesas</h2>
+      <div class="item"><span class="item-nome">Pudim da Vó Lourdes</span><span class="item-preco">R$ 10,00</span></div>
+      <div class="item"><span class="item-nome">Mousse de leite Ninho</span><span class="item-preco">R$ 12,50</span></div>
+    </div>
+
+    <div class="rodape">
+      <p><strong>DELIVERY:</strong> (41) 98418-3803</p>
+      <p><strong>Endereço:</strong><br><em>Rua Antônio Quero Lopes, 165, Quissisana</em></p>
+
+      <a class="botao botao-whatsapp" href="https://wa.me/5541984183803" target="_blank">
+        Fazer pedido no WhatsApp
+      </a>
+      <a class="botao botao-avaliar" href="https://www.google.com/search?q=marmitaria+vó+lourdes" target="_blank">
+        Avaliar nossa loja
+      </a>
+
+      <p style="margin-top: 20px;">© 2025 - Marmitaria Vó Lourdes</p>
+    </div>
+  </div>
+</body>
+</html>
